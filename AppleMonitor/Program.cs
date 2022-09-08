@@ -35,10 +35,10 @@ namespace AppleMonitor
             var productName = "MPXR3CH/A"; //监视机型型号
             var storeName = "泰禾广场"; //商铺名称
             var storageSize = new List<string> { "128GB", "256GB", "512GB", "1TB" }; //监视容量
-            var colorType = new List<string> { "午夜色", "银色", "深空黑色", "暗紫色", "绿色" }; //监视颜色
+            var colorType = new List<string> { "午夜色", "银色", "深空黑色", "暗紫色" }; //监视颜色
             var phoneType = new List<string>
             {
-                "iPhone 14 Pro", "iPhone 14 Pro Max", "iPhone 14 Plus", "iPhone 14", "iPhone 13"
+                "iPhone 14 Pro", "iPhone 14 Pro Max", "iPhone 14 Plus", "iPhone 14", 
             }; //监视机型,特别注意空格不是 HEX 20 而是 A0
 
             // 缺货推荐机型
